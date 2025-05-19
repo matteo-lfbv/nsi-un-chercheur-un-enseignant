@@ -6,59 +6,68 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-  }
-  
-  /* Conteneur principal */
-  body > * {
+}
+
+/* Conteneur principal */
+body > * {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Titres */
-  h1 {
+}
+
+/* Titres */
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
     color: #004080;
     border-bottom: 2px solid #cce0ff;
     padding-bottom: 10px;
-  }
-  
-  h2 {
+}
+
+h2 {
     color: #336699;
     margin-top: 30px;
-  }
-  
-  /* Listes */
-  ul {
+}
+
+/* Paragraphes */
+p {
+    text-align: justify;
+}
+
+/* Listes */
+ul {
     padding-left: 20px;
-  }
-  
-  ul li {
+}
+
+ul li {
     margin-bottom: 8px;
-  }
-  
-  /* Liens */
-  a {
+}
+
+/* Liens */
+a {
     color: #0066cc;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* Vidéo */
-  iframe {
+}
+
+/* Vidéo */
+iframe {
     display: block;
     margin: 20px auto;
     max-width: 100%;
     border-radius: 8px;
-  }
-  
-  /* Pied de page */
-  p:last-of-type a {
+}
+
+/* Pied de page */
+p:last-of-type a {
     display: inline-block;
     margin-top: 20px;
     background-color: #007acc;
@@ -66,9 +75,8 @@ body {
     padding: 10px 16px;
     border-radius: 8px;
     transition: background-color 0.3s ease;
-  }
-  
-  p:last-of-type a:hover {
+}
+
+p:last-of-type a:hover {
     background-color: #005fa3;
-  }
-  
+}
